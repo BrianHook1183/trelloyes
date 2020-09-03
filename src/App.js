@@ -27,7 +27,7 @@ class App extends Component {
 
   handleDeleteCard = (cardId) => {
     // https://blogreact.com/guide-to-destructuring-with-es6/
-    const { lists, alllCards } = this.state.store;
+    const { lists, allCards } = this.state.store;
 
     // need to dig into how this is all working, espescially the ... 
     const newLists = lists.map(list => ({
